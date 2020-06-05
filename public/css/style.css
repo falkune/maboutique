@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* background-color: blue; */
+}
+
+#produits{
+  width: 80%;
+  margin: 50px auto;
+}
+
+#myproducts{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 3%;
+  grid-row-gap: 5%;
+}
+
+#navigation{
+  margin-top: 20px;
+  float: right;
+}
+
+#detailProduct{
+  width: 80%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+#description{
+  width: 80%;
+  margin: auto;
+}
+
+#productDescription{
+  margin-right: 40%;
+}
+
+#imagelarge{
+  width: 80%;
+}
+
+footer{
+  margin-top: 110px;
+  background-color: #343a40;
+}
